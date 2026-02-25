@@ -3,21 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <table width="100%" border="1">
+
+
+    
+<!-- heading table -->
+<table cellpadding="2"  cellspacing="0" width="100%" bgcolor="#2B2B2B">
 <tr>
-    <td><img src="./Asserts/Images/logo.png" width="100"></td>
-    <td align="center"><a href="index.html">Home</a></td>
-    <td align="center"><a href="about.html">About</a></td>
-    <td align="center"><a href="contact.html">Contact Us</a></td>
-    <td align="right">
-        <a href="#">Cart</a>
-        <a href="#">Notification</a>
-        <a href="#">Menu</a>
+    <td align="left" width="100"><img src="./Asserts/Images/logo.png" width="80" height="50"></td>
+    <td align="left" width="100"><a href="home.html"><font color="white">Home</font></a></td>
+    <td align="left" width="100"><a href="about.html"><font color="white">About</font></a></td>
+    <td align="left" width="100"><a href="contact.html"><font color="white">Contact Us</font></a></td>
+
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-cart-arrow-down"></i></font></a></td>
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-bell"></i></font></a></td>
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-bars"></i></font></a></td>
     </td>
 </tr>
+</table>
+
+
+<table align="center" width="80%">
+    <tr>
+        <td width="50%" align="center">
+            <img src="./Asserts/Images/Register.jpg" alt="" width="300" height="300">
+        </td>
+        
+
+        
+        <td align="center" width="50%">
+            <h2><i>Register Here</i></h2><br><br><br>
+            <form>
+              <table cellpadding="7" cellspacing="7">
+                <tr> 
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" placeholder="Enter your username"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+                
+
+                 <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" placeholder="Enter your password"></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="confirm_password">Confirm Password:</label></td>
+                    <td><input type="password" placeholder="Confirm your password"></td>  
+                </tr>
+
+              </table> <br><br>
+                
+                <input type="submit" value="Signin">
+
+                <h4>Already have an account? <a href="login.html">Login</a></h4>
+            </form>
+        </td>
+    </tr>
 </table>
     
 </body>

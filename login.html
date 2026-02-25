@@ -3,22 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <table width="100%" border="1">
+
+
+<!-- heading table -->
+<table cellpadding="2"  cellspacing="0" width="100%"  bgcolor="#2B2B2B">
 <tr>
-    <td><img src="./Asserts/Images/logo.png" width="100"></td>
-    <td align="center"><a href="index.html">Home</a></td>
-    <td align="center"><a href="about.html">About</a></td>
-    <td align="center"><a href="contact.html">Contact Us</a></td>
-    <td align="right">
-        <a href="#">Cart</a>
-        <a href="#">Notification</a>
-        <a href="#">Menu</a>
+    <td align="left" width="100"><img src="./Asserts/Images/logo.png" width="80" height="50"></td>
+    <td align="left" width="100"><a href="home.html"><font color="white">Home</font></a></td>
+    <td align="left" width="100"><a href="about.html"><font color="white">About</font></a></td>
+    <td align="left" width="100"><a href="contact.html"><font color="white">Contact Us</font></a></td>
+
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-cart-arrow-down"></i></font></a></td>
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-bell"></i></font></a></td>
+    <td align="center" width="40"> <a href=""><font color="white"><i class="fa-solid fa-bars"></i></font></a></td>
     </td>
 </tr>
 </table>
+
+
+
+<!-- Login page table -->
+<table align="center" width="80%">
+
+    <tr>
+
+       <td align="center" width="50%">
+            <h2><i>Member Login</i></h2><br><br><br>
+            <form>
+            <table cellpadding="7" cellspacing="7">
+                <tr> 
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" placeholder="Enter your username"></td>
+                </tr>
+                
+                 <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" placeholder="Enter your password"></td>
+                </tr>
+
+            </table> <br><br>
+
+                <input type="submit" value="Forgot Password"> 
+                <input type="submit" value="Login">
+
+                <h4>Don't have an account? <a href="register.html">Signup</a></h4>
+            </form>
+        </td>
+
+         <td width="50%" align="center">
+            <img src="./Asserts/Images/login-button-click-app-icon-vector-28806677.jpg" alt="" width="300" height="300">
+        </td>
+
+    </tr>
+
+</table>
+
+
+
     
 </body>
 </html>
