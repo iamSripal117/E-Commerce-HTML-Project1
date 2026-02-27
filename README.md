@@ -1,3 +1,8 @@
+https://rsrecommercewebsitehtml.netlify.app/
+
+https://rsrecommercelink2.netlify.app/
+
+
 🛒 E-Commerce Store (Pure HTML Project)
 
 This project is a static multi-page E-Commerce website built using pure HTML only (no CSS, no JavaScript, no backend integration). The layout is structured entirely using HTML tables and basic tags to demonstrate fundamental HTML concepts.
